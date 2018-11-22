@@ -138,3 +138,11 @@ STATICFILES_DIRS = [
 MEDIA_ROOT = 'media'
 MEDIA_URL = '/media/'
 #configuracion
+
+
+
+REST_FRAMEWORK = {
+'DEFAULT_PERMISSION_CLASSES':   [
+    'rest_framework.permissions.AllowAny'
+]
+}
